@@ -1,0 +1,46 @@
+# Proyecto SAE - HTML, CSS, JavaScript
+
+## Estructura de Carpetas
+
+```
+/frontend/
+│
+├── IMG/              # Imágenes y recursos visuales (fotos, iconos, ilustraciones)
+├── public/           # Archivos públicos servidos directamente al navegador (Favicon, etc)
+│   └── (archivos estáticos sin procesar)
+│
+└── src/              # Código fuente 
+    ├── CSS/          # Estilos base para componentes en comun, animaciones, tipografias, etc
+    │
+    ├── HTML/         # Paginas a conectar con hiperenlaces y secciones
+    │   
+    └── JS/           # 
+    │
+    └── style.css # Hoja de estilos principal
+    │
+    └── index.html # Página principal
+```
+
+## Descripción de Cada Carpeta
+
+- **img/**: Contiene todas las imágenes utilizadas en el proyecto. Se recomienda optimizar las imágenes para web y usar formatos modernos (WebP, AVIF) cuando sea posible.
+
+- **public/**: Archivos estáticos que se sirven tal cual al navegador. Puede incluir favicons, robots.txt, manifest.webp etc.
+
+- **src/CSS/**: Todos los archivos de estilos CSS. La estructura típica incluye:
+  - Componentes específicos por página o funcionalidad
+  - Variables CSS (custom properties) para temas y configuración
+
+- **src/HTML/**: Estructura semántica HTML5. Generalmente:
+  - Otras páginas o vistas según sea necesario
+  - Meta tags, enlaces a CSS y scripts
+
+- **src/JS/**: Lógica JavaScript del proyecto. Puede organizar por:
+  - Módulos por funcionalidad o componente
+  - Controladores de eventos y manipulaciones DOM
+  - APIs y llamadas asíncronas
+
+## Convenios de Nomenclatura
+
+- Usar nombres descriptivos y en minúsculas
+- Separar palabras con guiones bajos para el css. Ej: btn_rojo
